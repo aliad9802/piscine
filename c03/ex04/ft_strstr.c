@@ -6,7 +6,7 @@
 /*   By: aabou-da <aabou-da@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 19:03:14 by aabou-da          #+#    #+#             */
-/*   Updated: 2023/02/20 00:19:40 by aabou-da         ###   ########.fr       */
+/*   Updated: 2023/02/20 00:32:58 by alabou-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,8 @@ char	*ft_strstr(char *str, char *to_find)
 	int	j;
 
 	i = 0;
-	if
+	if (!(to_find[i]))
+		return (str);
 	while (str[i] != '\0')
 	{
 		j = 0;
